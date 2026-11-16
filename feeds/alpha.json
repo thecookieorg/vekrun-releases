@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "notes": "Vekrun 0.2.0 alpha",
+  "pub_date": "2026-11-16T17:00:36Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGlZT0xBUUczTW9HYm16b2NuRnJZdXRzaEVNaGNONmpmbU1WbmVFQ1ZtVWRNeHpOaWREd3p0ejR3R3IrdVY2UFROMW94NkN3S0xILy9iWEgwYWZaYndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQ3NzkyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMApLemUrekZ1UWVqNGRJbU9YU3J6dTBHMThCREJsRDVVd3pjNlR1bk5jTy9NSGJldlM3bXQxVVIyY3lOSnNta2Z3R2Nmbjlibmh4Mmt2T3Uwdy9nZE1EUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.0/Vekrun_0.2.0_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGhjVXlnZW1LZmtlMG9yODJ4UVlDY0NCR1JLNVRrMHVDVTlhOWFYZUhMVmdTS0ZjZkk3Z25vc3Y3bEtoU2hQTjd6QWdobGNVNEdqaWtDd2lmTWM1SndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODQ4NDMyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMApTSlRxQ0hONzhYZklMVzhvM2VvZk1SRHhiblBzOTU3V04wOW9XbDJzeFYxcE1iM2hFc0hSUnZDNWR0MWhKeVVVNTFNSC9CNHdEcWtPUE9URTZFcDNCUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.0/Vekrun_0.2.0_x86_64.app.tar.gz"
+    }
+  }
+}
