@@ -1,15 +1,15 @@
 {
-  "version": "0.2.2",
-  "notes": "Vekrun 0.2.2 alpha: browser sign-in for monitoring and Board connections (Honeybadger, Sentry, AppSignal, Datadog, Jira, Linear, GitLab), a redesigned Production monitoring, no more freezes on large repositories, fixes in Connections",
-  "pub_date": "2026-11-17T19:18:45Z",
+  "version": "0.2.3",
+  "notes": "Vekrun 0.2.3 alpha: a connection's Test result shows on its row; Production monitoring offers your browser sign-in (\"You're signed in to Honeybadger\") and connects it in one click; the AI-agents sign-in is labelled as such",
+  "pub_date": "2026-11-17T20:12:23Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHAwb2JpSHVKR29SNTJSZzdwbWdBK0JXUTBlbXNES3VWWEZYUkNJbGR4NUtQRnVhaXpIL1RONEl0d2ZOOURodnhWdWxXQzRrNmE1RmhkRnl6dSt6ckE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTQyNDQ0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMgo4ZmZRTElGTUR2TXVMN25TK25McFcyN2JCUVR5N1VwbmVGTW95VlpPMmR1UVc1dm0xSW5BcnFNZFBtM0NIR0hQSGZaSWdvRi9Hc2dFRXQ1aFZBSkREdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.2/Vekrun_0.2.2_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHJSdm52czNidVNBNFJKOXhzN1RWeUNBK0c0U09CRFJTU2JIVzlrc2craENZODVsRmY1YVNwVk9nRk9SMFNab1pXTVR4bER2MEFVTTdmQU9PaVJGWHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTQ1NzE0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMwpBUDZQQW1PdXJMd3k3WnhUcmpMaUl4MjZudTFwbyt5ZVNpc2ZiN2oxajQwOG5QbW14dVpoalJuV002amlnMlZMWnI2KzZ4ejdUSXhUWHloYVMrb1ZDQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.3/Vekrun_0.2.3_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHJuMEhCaWdqYTRvY0pFV2Fwb3lwRERkZjlQNjQ4UjJNYmxvU2xGUkJsWUh6WVdaZkk5WjVUbWZ0bVl1MTU5SmlDY3pNaVlTUmZ2eVY1SXNwVFdhR2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTQzMTIyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMgpTc1dNR2lOelNES25HQ24vNXdDR2FuRm0wZDBYWi9yQ1prVm1yOTNza0ZKeUdZUjRNZ3FoL1J3Q2x4Qm8yMDF4U1hPQXRRUzRINytaQ2xEaEVjakhCUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.2/Vekrun_0.2.2_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGxBMmEyUnptazRqL0ZNVmNzUTIrdTBMRzQ4MXQ5cisrSXhDM2l5Q2MrMHgvbHppR3k1SGZxalRqQ05HRlJKbEJWR0pETnJPSXJaU2M3bE5nWm5jRXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTQ2MzM5CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMwpKUXJkZEJ2MjN6NUhMZHRqbU9WTC9lWm4wWVR3ay8zM1cwK3hmQUxQRFhIeG4zdHc3Uk9zbEFoeEoxWFV6aG1QcC9BSUplY3JNWVBpbW0rMHZrVmFEZz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.3/Vekrun_0.2.3_x86_64.app.tar.gz"
     }
   }
 }
