@@ -1,15 +1,15 @@
 {
-  "version": "0.2.4",
-  "notes": "Vekrun 0.2.4 alpha: Production monitoring brings in the history of active errors (not only new ones) when you choose applications; the Factory's branch options are shown by default and never blank",
-  "pub_date": "2026-11-17T21:30:12Z",
+  "version": "0.2.5",
+  "notes": "Vekrun 0.2.5 alpha: Install Ollama installs the ready-made app in about a minute (it compiled from source for hours on most Macs), and says up front when macOS is too old",
+  "pub_date": "2026-11-17T22:11:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1Zb3VkeERXZExBMHdTNFhna29UUnFCa1UwUHRraS90b1I5Vlo2ZnoxbkV0MFR4V1pldzRjc3hkMzZVQ0ZZK1lFWDBjYmxqdDcyNjZoYWNSQWtVK3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTUwMzgyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNApCa1NmQkljcENaZFNPTkdBNUFFQjUyeVpmYWRVaEpiUUhNcVZyaFlEYzF3UWlKWnRNQ2xNVTZVNDBQNWtzNFFEengyenlhaDhyQ2duUDRiVlFTZ1VEUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.4/Vekrun_0.2.4_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHVMK1o2TjF1WG9OdGFKVS9oYTRrNytZRXlhZ0llZlVrTEZQdVF6MnRFUmg4TjVib3VKWmN3dXpEUWtpTm0zZmxZdHZtTENFYUdPT3JhZ0o1a0xJamdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTUyODY0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNQo2Q3pMVk9Ya25rc1h2Wlp3QzduVTNIVTdZK085QmZvY2VSYXJwK0lBQU5Nd25ZUkE0Zk13M2R2R28wa056b0NVektPVlZvd2lFMmg1ZElqQUJ4U1BCdz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.5/Vekrun_0.2.5_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHVobVdjNnZYTno0QmxLSEE3OWFqRVBFMEJCV0RSTXN1QWJTQ3ByQTAvSEFyMEpoVlFYZmhjajRBMm02aWVIUjFOZWU1cS83TUhLekZjK3VIem5SYmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTUxMDA4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNApBNEFJZnN6K0VVemhIeFBTM1JlM0FKeFlqY3I3b0grV0Z4ZWVmU2dneHNnTHZWcUl3Y0hva3hUbDhrNTdMT2ZJK042TmVXUFdPMlpBMEZBTHFuNUlDQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.4/Vekrun_0.2.4_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHRlUGQxaWZKUENpdGhGeWpwcUhnQ1RwUVhJMnlOVHVmRkU3UmNyZXpwOXMyenZ4Y1U2QzdpMmRaUmQ2UjFEeXp2VlZGWXBPNDlReHMwYkpETUVZRGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTUzNDk0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNQowNDZHeSsvWDRXQ2Nka3JsYlNuSXQ4WjVWTlQ4Ry9RNDI1VmNuL1hsR2VHWktIbk9McTVBYlhWVkxFeURrVEQ2ZDhFTHprM0R2OFo1SGw0aXQyNnhBQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.5/Vekrun_0.2.5_x86_64.app.tar.gz"
     }
   }
 }
