@@ -1,15 +1,15 @@
 {
-  "version": "0.4.8",
-  "notes": "What's new in Vekrun 0.4.8 \u2014 Back, one step at a time\n\n\u2022 A Back button at the left of the top bar (also \u2318[ and your mouse's back button). If you went deeper on a page \u2014 into a folder of the architecture map, or an open error in Production monitoring \u2014 Back steps out of that first, then returns to the page you came from. It always says where it will take you.\n\u2022 Engineering Memory's Impact now explains its warnings: \"What could break, and what Vekrun can't see\" says what the risks are and where Vekrun's map of the code can't follow, so the lists below may miss something.",
-  "pub_date": "2026-11-18T17:55:03Z",
+  "version": "0.4.9",
+  "notes": "What's new in Vekrun 0.4.9 \u2014 Fewer surprises\n\n\u2022 Vekrun asks before it removes anything: Work Items from the list, schedules, triggers, connections, MCP servers, extensions, memories, conversations, snapshots, branches and more. The question says what goes, what stays, and whether it can be undone.\n\u2022 Lima installs by itself when Vekrun starts (one time, about a minute \u2014 its official build, checked against its published checksum, no administrator rights), so Factory runs are ready without a click.\n\u2022 Fixed: Honeybadger through the browser sign-in only brought in the newest errors. It now reads all of an application's active errors, and every connection reads its history once more after this update.\n\u2022 Fixed: Datadog's \"Sign in with browser\" said Datadog had no browser sign-in. (An organisation admin must have MCP access turned on in Datadog.)\n\u2022 Updating a coding CLI is one click, refreshes Homebrew first so the newest version is found, and says so plainly if the version didn't change instead of reporting success.",
+  "pub_date": "2026-11-18T18:28:12Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHBncloxK1kveHU1SHdnU3JzV2VWSmdVcUg1ZmdUdlJvQ0FCZDB5SUsralhHT21YaUlkTTdITEJiZC82UWQ4cU5UTktqUHpaNzhPZHozNVVwbU5ZdFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDI0NDk3CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuOApWOGI3UmlpUHlRWFVLSTJSb0xVWUY3N09wZmV4emFRb2hhblJiNnMzSGtpbnJrdWJaVWZ6cThJS3hDM09BVXB4bzFsUFN5ZDdKVzkrZ1VaSmlvVWpDUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.8/Vekrun_0.4.8_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGoya0xvS1JXU3I4d1crQVdFbFpSUE1vYXI4NHBXSDFpdExFc3ZjV3FEaUVnRmtjY25KSmN0N2VOSHErMGxJeXZibFpreDRLcWpIeTNuUFJkdk85TWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDI2NDg1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuOQpFcUw2ZldLWW5jQitVeDlZek12UjRCQ2xBczZ0czhWVGx0dmFvVUNlaDVhaGFZTTltVDlOQTBETE9uT2Y2U1l0OHBHV0VHWXFaSWxiZWxaOFpDQ1FEUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.9/Vekrun_0.4.9_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG82a3JIbEd3RWZLSlNMS2t4UFVNcUM1eThyeUxtZm1OQk9OU21SaERTVDBRVTlmaGQzSmpXME1pRS9VQytjV1FHVWZwNWZDR1hCWk9qZVJ0NHdhU2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDI0NDk3CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuOApFTngxbzZrWmxrSXRtUUlzQlNTY2ZoQmJIcXFYd0E0OU5ZalRwN0NHWmsrdDB0bFNGaWxkNHFIcmlOUlFVd3YzcVlqaE1aSS9kMk5EeUlrTDBWNXlDQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.8/Vekrun_0.4.8_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGorRy9VRUpGV0xhUC8yK3p1VFlQSFRmRlZPUE9jVDF2QmdDQnlvaEFtdG9hR1YrenlKTXBVK29OM2JTVlE4WlFKd2hMdGZmYUg0enA5b20rOUdYcUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDI2NDg3CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuOQpCWjBzUlF3cVIyQnhXcG1GSFdpR3JETHExVjhvckRpRmI1NFZOcjBLUlpKeHlPNDdEZFg0VkFoV01zeWErViswOWtHWTh1dTBLOGwySlVaZ0htdVVEZz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.9/Vekrun_0.4.9_x86_64.app.tar.gz"
     }
   }
 }
