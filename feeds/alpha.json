@@ -1,15 +1,15 @@
 {
-  "version": "0.5.5",
-  "notes": "What's new in Vekrun 0.5.5 \u2014 Datadog, and one debug report\n\n\u2022 Datadog through the browser sign-in reads Error Tracking when its answer has a heading, a note or a code fence around the data, and an answer that says there are no issues is an empty list rather than an error. If an answer still can't be read, Vekrun keeps a redacted sample for the debug report, so the cause can be seen instead of guessed.\n\u2022 One debug report: \"Save diagnostic report\" (Settings \u2192 Environment diagnostics) and \"Export debug info\" (Settings \u2192 Updates) save the same zip \u2014 versions, this Mac, toolchains, agents, settings, recent Work Items and any unreadable answers, with secrets removed \u2014 with Show in Finder. The report says the app's real version, and the page no longer jumps while it saves.\n\u2022 Errors since: choosing a day only sets it; Sync now brings the errors in.",
-  "pub_date": "2026-11-18T21:54:19Z",
+  "version": "0.5.6",
+  "notes": "What's new in Vekrun 0.5.6 \u2014 Datadog Error Tracking, for real\n\n\u2022 Datadog through the browser sign-in brings your Error Tracking issues in. Its answers come as a metadata block and YAML, which Vekrun now reads (found from the sample a debug report kept). Vekrun also asks Datadog for a larger answer, so long lists aren't cut short.",
+  "pub_date": "2026-11-18T22:19:29Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1EdS9aVmdZb0ZCYzY4MitCQUpoMDNOMU11Y1JMZ1BFWDZZTEVQY2QzVVVXaDZUTHlGcFhPS2VDY0NJRHVQcE1uQTRxZ2Z1Y01IRTY0dkJhNkxjelFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4ODU3CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNQpxWnBTMHczSjUvdlJIblRuWno4ZXo5RHJrMTIySzdJR05YMU9wU0JyWlpsVW0zOGl4dVNuR3JrbGdRYWdxbGhVNStDc09UaCsxdm43eUZYNnoxRTFCQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.5/Vekrun_0.5.5_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGlwRVB6YUZtcFJ3UTFjeWJ3NlBRVUxkbUlualQvNGJJQUkyNzZZOTNEZE9iSlVOTndDNDYwbTJOY0x4UGpUY3hHT2lCTU4ycUtCWDVGUDk5Y1ZTMHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQwMzY4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNgpSUXh5SWo0eDlnc1cxblRwV3ZPSXROSWl4Y0dWeW1mSG0rUWdvRGtBcGhkMDNaOG1rYlJBQXp1Z3FmeG9CbDlSQTdGUng4UCtmTWF1bWRQbDBvZGZCZz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.6/Vekrun_0.5.6_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHVWeldPdWdKbFUxMFl3enpYbUpRVEp0eW5nNzZxck9zRW5DdGR6Vyt2WFpSdzBYc0lvUi83QUUyOHozUVhBd2lIWlVMNWhLcnZDMGJXcnZoeGlCSEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4ODU0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNQpRQ2ZjaytEQUM1N1FLN0N6TjZ0dlpQMFFNSEJIRXU5UnQyd3VabGRYRHQ2Y3J5bm91NW1vdGpxcW5EOEFyZUFob0xxczc5bVZWQzJVWEc3VzhjSUlCQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.5/Vekrun_0.5.5_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHRKTVZIU0cvQUtFTXArcHExdHIzTmM0djFQMThYdGFKMmlwekcxRDdaakdzNXNuaE01dHV3UHplSlJsc3pzSEJHTUM0QUZOaXZXV3dadUtXNGxwSncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQwMzY0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNgpEKytoVXBNNnZnbVQ0YkhobzZOZjk0bkE3N3JCNGFyK0IwUGdjMTk4R1J4VWpnQ0taS1o0SWdsTmU3a2J0L2FzUEdyTldVSTZ3c1ltNG5LR05zd3VCQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.6/Vekrun_0.5.6_x86_64.app.tar.gz"
     }
   }
 }
