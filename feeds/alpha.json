@@ -1,15 +1,15 @@
 {
-  "version": "0.5.9",
-  "notes": "What's new in Vekrun 0.5.9\n\n\u2022 An error's details in Production monitoring have a fixed header with an X to close them (or press Esc); only the details below it scroll.",
-  "pub_date": "2026-11-18T23:20:38Z",
+  "version": "0.6.0",
+  "notes": "What's new in Vekrun 0.6.0 \u2014 No more Keychain prompts after updates\n\n\u2022 Updates stop asking for your Keychain password. Vekrun is now signed with one stable certificate, so macOS knows each update is the same app, and all of Vekrun's secrets live in a single Keychain item. This update asks one last time (once for each secret you've stored, as they move into that one item): choose \"Always Allow\". After that, updates don't ask.\n\u2022 The update pill in the header shows up by itself: Vekrun checks for a new version every 30 minutes, and when you come back to it after 10 minutes or more (it used to wait six hours).",
+  "pub_date": "2026-11-18T23:46:43Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFXRDZjOEVyUjJvTzloQnRzcjRSVzFCQ09sM2RHbndOc2dSTmdHdDRSZTdwRnM2Z2pjbmEyRTBBeHZhS3hCTk1nN1lXTEVTanB3ck0vaUtERytnSVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ0MDM1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuOQpNUDYwS2xPdnJiVVhwR3MwMXZycUlpeWloNVM3ZUZPWnNxdktVQmFqZTQ2WmtrbW03T3lOcVZ0MTZ6VDlWUjRtRk1TSjhveVQ0MDJtemdRQXdndFNDUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.9/Vekrun_0.5.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG5semZ0bmhNcVUxdDk5Z3BqcG05cFJQS0lQcGVVTnNYbFlkcjB5a0tRYVpDKzZFRnhqN0hjNFdaL1gvWDRNR3NzL3VRQklUaDdsYUZ1ZDE0V0JHWEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ1NjAwCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApkRjFNRG51dEpxa3lzM1pucnpicUlLZ1haaWFyd0Vjd2pvME1XdmtKeGlObXFUeWVPT2szcy9HdDZLTjZsVG1uRENYbWVpZmFYUWhrdGgrMFZubUdEUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.0/Vekrun_0.6.0_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHZnYS94RGEwQmF2SlhJMXJGNzM5TnpJU3BoOTB4azdyOTd6NlRJTmVLOEVpSXBsVGdjckt4bW1XOGhEVDhRSGxpeER5cXFMUHd5anB3TmVScUFqdkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ0MDMzCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuOQp3ZTJpNlphbGZ0RmFTSFVhUE4xYVA3bndJVDlaWDd4RzJnRGRIWFNEeDhLVFZCZHhobWN0allCQjgwcEdJdno1R0hFV1g4UDZxS2w2K1k4WFpOSnZBQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.9/Vekrun_0.5.9_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGdHWE8yS3R5SStIRzJMbTU0eUN1MW1FbytLVmVXVGxjbnZtRnFBT05WTUxYMTEvM3NRVm9XbzhNUjRvNk1CWFJXckVYMnlsNDJCQVlxYU0zYWF2MndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ1NTk4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApFakJHSHU2QmJQT2VocDZZTXh1Rk9NdTFqOXB2KzU5NnhwWG9SaVpzNzZyK2ZxRUlyS3Z6K1ZORER6d3BSLytES3FIaEYwaTd5bnlPS3Vhamh1ckdDZz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.0/Vekrun_0.6.0_x86_64.app.tar.gz"
     }
   }
 }
