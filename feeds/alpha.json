@@ -1,15 +1,15 @@
 {
-  "version": "0.2.6",
-  "notes": "Vekrun 0.2.6",
-  "pub_date": "2026-11-17T23:39:19Z",
+  "version": "0.2.7",
+  "notes": "Vekrun 0.2.7",
+  "pub_date": "2026-11-18T00:23:32Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG41Wm10aE9qUkM1UW14TXRLWXowU1ZIbm9qY2h0ZEllMjA3SFM0ckEyNFU3ZEo4ZjFYNzBuZFJ5aHo0c1NocG1LTHZmajhlQ2V1bVJ0MTZtaXUvdXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTU4NDYyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNgphVXVGdnQ5Tm16OFc2TFZRRlQ4U0g0Qk1vYkw0NDExMnNWelpmaDJ2WVR1c1BobzA3UlQ5V0hvNnFZbFJlZXFpY0l3dzdNN1E4STRlb0tzKytTYzRCdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.6/Vekrun_0.2.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHYvbENNT0VTeExBUk5yL29VYm1NTEJBL01Bemp6bms1dFQxQyt4cjkzWnZzMlRBVWhmNFBWc0JjZzVkNEcvcTE0dmdwbnhYTnBkZUI3SHBpTi8rSWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTYxMTQ2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNwoySVh3SWExYUZCeG14ZW9rUXlDaHFYTWxmb1MrcXFiUUpVNmxzL21JdFFKSnRsL1pOb3dUZXpBQytqRTdFNWwrZkJ3azJEVUpzRWVXeko0Sy81ckdBdz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.7/Vekrun_0.2.7_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHRKODF3Mzl3NnpyOGhvRFpuV3ladzRiL2VEVXZ2cVVyRlpKbDJjdlRzYTlLQmJGUXA3dlRMQ091eVYwckxTVkhRWHpNZzNLa1k3K09kNlp3TEdaS0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTU4NzU1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNgpUMmZobDVvdG1UQ3F5NDdHVVlmSnF3OUZqSUF5ZkdabmFPbVBEb3B0bkJOZjhBSGVFRHBVbEtWTm1tK1FvSDBlYWtiMGl4K2MvNklpMUxHRXllREtDdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.6/Vekrun_0.2.6_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFneUdSa3RCNkZPZ0FybHhQRlBnMStBYzVhazgrZTdFOGtLUEZDY2xCQlU0RXZrdEV2WjRURTEwaSs2VnFFNDFrL2YyZ2ZuRmhZUGk3VUNBSGl6ZUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTYxNDA4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNwozSWJQZ0ovOG5kVlMycjhUSjVKMTFUUkRoT2lFZzluaGlWSGtZc1ROOTRqU1dSbGl5S1Z6RENPbVlzVndZcC94ckc5aTdwN1IrN1g5YjVrOFYvcGlEQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.7/Vekrun_0.2.7_x86_64.app.tar.gz"
     }
   }
 }
