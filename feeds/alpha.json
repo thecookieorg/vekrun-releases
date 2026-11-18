@@ -1,15 +1,15 @@
 {
-  "version": "0.5.3",
-  "notes": "What's new in Vekrun 0.5.3 \u2014 One Board\n\n\u2022 One Board: the Board and the Ticket board are one page with Overview and Tickets tabs. New work item opens right on the Board and the new item appears in the queue \u2014 no more jumping to the AI Factory. The ticket board's setup (connections, settings, activity, plans, Markdown) is one Manage menu, and each opens as a dialog.\n\u2022 Production monitoring: \"Errors since\" beside Sync now. Pick a day and Vekrun brings in each application's errors seen since then (they arrive quietly, without new-incident alerts); clear it for all history.\n\u2022 Datadog through the browser sign-in syncs Error Tracking again (Datadog started requiring a \"telemetry\" argument), and APM isn't offered there any more instead of failing every sync (Datadog's browser sign-in has no tool for it; API keys still bring it). Vekrun now fills any such \"why are you calling\" argument a vendor adds, without ever inventing data.",
-  "pub_date": "2026-11-18T21:20:21Z",
+  "version": "0.5.4",
+  "notes": "What's new in Vekrun 0.5.4 \u2014 The Board, straightened out\n\n\u2022 Tickets from Markdown: no more dead end. Your open project is offered right away (Vekrun adds it to the Board when you import), the import comes first and the how-to is tucked away, and importing files that are already on the Board says they're up to date instead of \"no tickets found\".\n\u2022 One clear button per tab: New work item on Overview, New ticket on Tickets.\n\u2022 The Overview queue shows your local and Markdown tickets too (they were hidden by the project filter), without Vekrun's internal ids.\n\u2022 Ticket cards no longer repeat their id in the title.",
+  "pub_date": "2026-11-18T21:43:18Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGh5ZnZNQ0JKOHNWRkNSckcxamFrVERQNGZNSVZzdUNPNjlPakRvVUQxWFZsQUpWOHQ0eUhGYVUwVkEvcjVWZi9rK0R0K3IxaFdmdDYrcUEzc296OEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM2ODE3CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuMwpDTlEzUjAwM0lTSS9BK00xN3dyay9aV2ZoUGltWUZwUUpHV1BoS3VRMm9rZmorbzhjRGIvOGVQOVUzcDhGT0RWSCtWbW1VSzZHWDhhZ0JKS2JjdnVBUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.3/Vekrun_0.5.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFNeUhsWklwV2RHUWpFa3VUSzlqRW5EcFpLUmJOVHp5cVcxSDc5ZFZISHZ4WEhhdktKSFhlWVZvVWxCZHNmakVEVWE1Vnk3clYyUkIrUnh3R2pqQ3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4MTk2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNApueXVEL1k2VWpLU0l1M212akpkdExNbmdXalJKeHBsa2RRejhGMXk1NngvZitzcGFTYXZTa0xPS0liNXF6WGZNVUlxaE40VWhPVTE5MExzSHUwTzVDUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.4/Vekrun_0.5.4_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGczNjlJV2MxSWZ1UXY2a0RyZ2RDQmRMK3RiQnFFVkRrTUJtRUFmR2RnWjlUME04M08xMFRYWEIvdjlSTkVhT0dPVnBRWnVYQ1VXZ2puRTYxYjBOVWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM2ODE2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuMwp4R01MdnYvOWRUanN2VGF3SmQ5VVpSb29WVU1EczJYQkV6Yi9yWDRiUHpYMFRSUkpUVGVPVVZkQWhHMHQ2VDJrNkkvelUzT2M4WFJOaWx5OE5TS3dCdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.3/Vekrun_0.5.3_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFjVUxRclZqV0ZSWElvbkFydzlWY0lESHJIS1VJbXAza1VZVTNIL0tKNi9VSzVHMWlpbVhkM05aSUdidko1c2JTY0YybjBadXp5ZGRWUWRPREJ2OEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4MTkzCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNAo5Y0I0WVJRN2xVdUNqMEdqcDhYeHZxbW5IbkxVdjltbUwrekxQRk1kT2hiMFdlcW40RDBCTTBrR3BFdmI5VmFSTFdwckdVMlRBUXdndEtFOG9ZVS9Edz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.4/Vekrun_0.5.4_x86_64.app.tar.gz"
     }
   }
 }
