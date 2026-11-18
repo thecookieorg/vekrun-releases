@@ -1,15 +1,15 @@
 {
-  "version": "0.4.4",
-  "notes": "What's new in Vekrun 0.4.4 \u2014 Vekrun on a Linux server\n\n\u2022 Run Vekrun without its window on a Linux server: the command line, the background worker and the MCP server work with no desktop and no OS keychain. Opt in to an owner-only secret store (VEKRUN_SECRET_STORE=file) and Vekrun keeps keys as files only you can read \u2014 and refuses them if anyone else can. See docs/headless.md for the setup.\n\u2022 A Linux machine can prove work on its own isolation engine \u2014 podman, gVisor, Kata, QEMU or Firecracker \u2014 with vekrun anywhere use local.\n\u2022 The worker's systemd service now remembers the data folder and secret store it was set up with, and runs with tighter defaults.\n\u2022 Fixed: an agent working through the Execution Bridge could wait up to 30 minutes for a reply whose last bytes never arrived on some Linux kernels. Replies now arrive whole, and faster.",
-  "pub_date": "2026-11-18T09:35:52Z",
+  "version": "0.4.5",
+  "notes": "What's new in Vekrun 0.4.5 \u2014 Local models in one click\n\n\u2022 Download any local model with one click. If this Mac doesn't have Ollama yet, Vekrun installs it (Ollama's official build, checked against its published checksum, or the Ollama app through Homebrew), starts it, connects it, and then downloads the model \u2014 all from that one Download.\n\u2022 Every step shows on the model's card with its elapsed time and what comes next, and it keeps showing if you leave the page and come back. You can stop the engine install; nothing downloads after a stop. If a step fails, the card says which one and why.\n\u2022 The download dialog counts the space Ollama itself needs and won't start a download that doesn't fit on the disk.\n\u2022 On a Mac where /Applications needs an administrator, Vekrun installs Ollama into your home folder straight away \u2014 no admin rights needed.\n\u2022 Fixed: a leftover ~/.ollama folder (after Ollama was removed) was taken for an install, so Vekrun tried to start an Ollama that wasn't there.\n\u2022 LM Studio is hidden for now while we finish testing it.",
+  "pub_date": "2026-11-18T16:53:23Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHYvS2RKMG94RVBQRVR1V0lyWENLbytZQ252SWlUd0RyN3FuNHZjTFJ6WDF6OFVwNGRvTFlFZ2hpUnlzQ1FUSFJSWW9VWkZzVWNDb3lFTjZPWndDSWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTk0NTQ5CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuNApvUXJTd0JLdUUwRmF0SWlUbldxTmRVajUrcGF4dE90TXZKSFNMTnJCVEYxMTU3Z2xkeVRlUTJtVEhNay9PeG1BS3FaZ2Qva3UrMVg1UEhJcndvU2REdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.4/Vekrun_0.4.4_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1Bcm91b0dNUEp5RzV4elR6Rk9YeUpPSi9NYmFmdk5xb1Q1V3p2ZzVqb0tpMlpGSHZoNi9uZjlvN1E4UkdBNS9wQkJLVUl5NXpSUkVSNGVKK0tHQ2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDIwODAyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuNQpBZ2NFTVowVWNKM0xyWWlwMDRIVTQrVEdmRzJIeTVlUEsrNTdFeVBMalQyYzJzVUc2dmpSNkgvK0U0QkdlY2JKRS96Ym1xS2JOcWZncWZta0J4SkVCUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.5/Vekrun_0.4.5_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHByMy9oNnVLUWN2M3pJWTNMSG1SYU1tMzBMVzVIck16MkNQdmt3Y3lFVzkzWUtFV0JBaUhaZ0ZSb3c4L2JkSG9IdENySkkzQ3Z2U0hDTVJ1MkRNUGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTk0NTQ2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuNAp1M1lYMm1ZSjB4aHlvOW11NHYxaWh2Q3RHVmgzdVdqWUJvQlN1MGVSOVIwSXZFVW1veGxHdElObmxuRVBqRktPZ1JFRDl1b3JjT1BKT0pLT2ZSQ2FCUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.4/Vekrun_0.4.4_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1BejZuZ242YUpueDZCTC8wZDNuN1hCR2xwOFZxSmk1UHl6aWVwVXIzMVgzQURuV0ZKN0h4alJwTG95YUhrSENEWS84eDNQOWdwdU8yWE84b2F5MEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDIwNzk2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuNQpFQm1oT2t3VEtkRjV4eFRsNjhSc0w4RDF3Tkk0WHg4NkpuYTVXa1h2MmN3NGdBeTRnSnVoWVowSDJlSFF4UkZrYlh1bVg5cWZ3bnpCQnhXYk4wRE5BZz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.4.5/Vekrun_0.4.5_x86_64.app.tar.gz"
     }
   }
 }
