@@ -1,15 +1,15 @@
 {
-  "version": "0.5.6",
-  "notes": "What's new in Vekrun 0.5.6 \u2014 Datadog Error Tracking, for real\n\n\u2022 Datadog through the browser sign-in brings your Error Tracking issues in. Its answers come as a metadata block and YAML, which Vekrun now reads (found from the sample a debug report kept). Vekrun also asks Datadog for a larger answer, so long lists aren't cut short.",
-  "pub_date": "2026-11-18T22:19:29Z",
+  "version": "0.5.7",
+  "notes": "What's new in Vekrun 0.5.7 \u2014 Big test suites\n\n\u2022 A project whose tests take longer than 15 minutes can be verified now. Every test run (before the agent, after each turn, the verification and the proof) used to stop at 15 minutes, so a big suite failed every check however good the work. When a project's tests run out of time, Vekrun now doubles that project's limit (up to 30 minutes), remembers it, and says so; you can also set it under Settings \u2192 Factory.\n\u2022 Tickets from a Markdown file: Board \u2192 Tickets \u2192 Manage \u2192 Tickets from Markdown \u2192 Upload a Markdown file (or drop it in). Every ticket in it becomes a ticket on the Board, no repository needed; uploading the same file again updates them.\n\u2022 Ticket fields written as **Goal**: text (colon after the bold) are read too; before, only **Goal:** text was, and such tickets lost their goal, dependencies and acceptance criteria.\n\u2022 Cloud model cards (OpenRouter, xAI) match the coding agents': a short summary, details folded away, and Connect opens a dialog for your key.",
+  "pub_date": "2026-11-18T22:41:20Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGlwRVB6YUZtcFJ3UTFjeWJ3NlBRVUxkbUlualQvNGJJQUkyNzZZOTNEZE9iSlVOTndDNDYwbTJOY0x4UGpUY3hHT2lCTU4ycUtCWDVGUDk5Y1ZTMHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQwMzY4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNgpSUXh5SWo0eDlnc1cxblRwV3ZPSXROSWl4Y0dWeW1mSG0rUWdvRGtBcGhkMDNaOG1rYlJBQXp1Z3FmeG9CbDlSQTdGUng4UCtmTWF1bWRQbDBvZGZCZz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.6/Vekrun_0.5.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGxUNTgxaWYwbjNjakFJZXNjZ2xIcE5MZEphNUR1eWlPK1pTNDBmNVRvMDhhQXRPWW5XcFlLajFzYzRId0s4S0V5ay9RcnNpUHpBM3NFQlNZcU5PY1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxNjc1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNwpyd1NuTUJlU2hqZS8rSW5VRzVxajdSOENkN2MyMTgxYkVPUTV3bkRscE0wOWV3cDkrWjA0MEYzdWo0dFhGaG4zQ3BJRjdvQ1d5ZEpGQlB1L2o4ZC9CQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.7/Vekrun_0.5.7_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHRKTVZIU0cvQUtFTXArcHExdHIzTmM0djFQMThYdGFKMmlwekcxRDdaakdzNXNuaE01dHV3UHplSlJsc3pzSEJHTUM0QUZOaXZXV3dadUtXNGxwSncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQwMzY0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNgpEKytoVXBNNnZnbVQ0YkhobzZOZjk0bkE3N3JCNGFyK0IwUGdjMTk4R1J4VWpnQ0taS1o0SWdsTmU3a2J0L2FzUEdyTldVSTZ3c1ltNG5LR05zd3VCQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.6/Vekrun_0.5.6_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFBcUg4WEgwOVZMMXRONlN0dVVhUkl3dUszRHhXVnBUWDJ6Sk9yU3BueWR6bnFXRHBGVXJaanBXM055Z1hQY054ZU03b3RlUDRPc090d3E1eXJOUUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQxNjc1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNwpJcmxTeUdaT2RXbGVWcE1qZ2xpcFBocjlHL2hBWHcwck95WEp0Rk5rVEtzcnEyL3NMYVBZQUZDcjNSVlU3NFdzb1RtV1dFRUNsMm5PWHFyMFNmRDVBUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.7/Vekrun_0.5.7_x86_64.app.tar.gz"
     }
   }
 }
