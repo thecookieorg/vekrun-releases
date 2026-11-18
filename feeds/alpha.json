@@ -1,15 +1,15 @@
 {
-  "version": "0.5.8",
-  "notes": "What's new in Vekrun 0.5.8 \u2014 Runs that carry on\n\n\u2022 Run again works after a run that already started building: a new attempt of a Work Item carries its adopted plan on (no new council, the plan revalidated if the repository moved) instead of stopping with \"the implementer was already launched \u2026 under an earlier owner\". This also covers a run interrupted by an app update. A crash still never launches the same build twice.\n\u2022 Big test suites no longer hold the planning up: your tests run in the background while the Coordinator and the Council plan, and the build starts with their result.\n\u2022 Datadog Error Tracking syncs: when its answer isn't cut short, Datadog sends the issues as a plain YAML list without its usual tags, which Vekrun now reads too (checked against the answer a debug report kept).\n\u2022 Production monitoring reads Sentry, Honeybadger and AppSignal answers as tolerantly as Datadog's (tables, YAML, JSON with words around it), and an answer it still can't read leaves a redacted sample in the debug report instead of a guess.\n\u2022 A ticket in the Board's queue opens on the Board's Tickets tab, with its description formatted.",
-  "pub_date": "2026-11-18T23:04:54Z",
+  "version": "0.5.9",
+  "notes": "What's new in Vekrun 0.5.9\n\n\u2022 An error's details in Production monitoring have a fixed header with an X to close them (or press Esc); only the details below it scroll.",
+  "pub_date": "2026-11-18T23:20:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1YUjlOblVKNlRLUk1mazkyMmZmKzU3dC9ldWJrVUx6THNEVlV2bWluN2NwYWtTZFk2c2F3ZXRydVcySVVuZUxOSWFCandiN0ZGUVhtblovZjJZVEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQzMDkxCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuOApDNThuY3FjLzB0SEt2eVdybnpMYkJ6dit1Z0E1RlRIbU1WNVVmQ2JXeVdhT1VWUnBOU2kyZkFwRmx6ODVuSHlUcWQ2bmhFOCsvSUR5ZnhwdWZPWU1CUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.8/Vekrun_0.5.8_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFXRDZjOEVyUjJvTzloQnRzcjRSVzFCQ09sM2RHbndOc2dSTmdHdDRSZTdwRnM2Z2pjbmEyRTBBeHZhS3hCTk1nN1lXTEVTanB3ck0vaUtERytnSVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ0MDM1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuOQpNUDYwS2xPdnJiVVhwR3MwMXZycUlpeWloNVM3ZUZPWnNxdktVQmFqZTQ2WmtrbW03T3lOcVZ0MTZ6VDlWUjRtRk1TSjhveVQ0MDJtemdRQXdndFNDUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.9/Vekrun_0.5.9_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHJKUXUrWktwSjh1Ymt4SnJMSlA0WVJsQmJvNjFxMFBWU01wdmw1czVDbzk1OUkrQVRCMmhxMlF2dmhpeVVEcndUOE5mYmxXSVF5T3IrNHFVNStpbWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQzMDg5CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuOApMN08rQ1gzUy9Tc0Vyd2t3bUhQdFp4dlJmL08wSkdZVlZpd2tGZEZRVFJ1WU5idHljMlBaV1cwN29KTVhPbUxEbU51dmRWdDRNOVliNWg0TTFzOHhDQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.8/Vekrun_0.5.8_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHZnYS94RGEwQmF2SlhJMXJGNzM5TnpJU3BoOTB4azdyOTd6NlRJTmVLOEVpSXBsVGdjckt4bW1XOGhEVDhRSGxpeER5cXFMUHd5anB3TmVScUFqdkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ0MDMzCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuOQp3ZTJpNlphbGZ0RmFTSFVhUE4xYVA3bndJVDlaWDd4RzJnRGRIWFNEeDhLVFZCZHhobWN0allCQjgwcEdJdno1R0hFV1g4UDZxS2w2K1k4WFpOSnZBQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.9/Vekrun_0.5.9_x86_64.app.tar.gz"
     }
   }
 }
