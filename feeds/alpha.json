@@ -1,15 +1,15 @@
 {
-  "version": "0.2.7",
-  "notes": "Vekrun 0.2.7",
-  "pub_date": "2026-11-18T00:23:32Z",
+  "version": "0.2.8",
+  "notes": "What's new in Vekrun 0.2.8\n\n\u2022 Your plan, on the AI Factory screen: if your project keeps tickets in Markdown (## P1-T1: \u2026), Vekrun reads them by itself and lists what's next, what's waiting on what, and a Start button that runs the ticket held to its Acceptance. They're on your Board too.\n\u2022 Team skills at a glance: a pill beside the composer shows your project's skills and which ones load for what you're typing.\n\u2022 Project understanding, redesigned: real step-by-step progress, a clear \"understood\" state, and your connected Obsidian vaults listed with their note counts. Adding a vault now confirms what was read.\n\nAlso since 0.2.6\n\u2022 Tool versions (Agents): see when Claude Code, Codex, Gemini, the GitHub CLI, Lima or Ollama fall behind, and update in one click. Copies Vekrun installed update themselves.\n\u2022 Production monitoring keeps your open errors however old, and the search and filters stay pinned while you scroll.\n\u2022 Failed AI Factory runs can be run again or removed from the list.",
+  "pub_date": "2026-11-18T00:54:24Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHYvbENNT0VTeExBUk5yL29VYm1NTEJBL01Bemp6bms1dFQxQyt4cjkzWnZzMlRBVWhmNFBWc0JjZzVkNEcvcTE0dmdwbnhYTnBkZUI3SHBpTi8rSWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTYxMTQ2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNwoySVh3SWExYUZCeG14ZW9rUXlDaHFYTWxmb1MrcXFiUUpVNmxzL21JdFFKSnRsL1pOb3dUZXpBQytqRTdFNWwrZkJ3azJEVUpzRWVXeko0Sy81ckdBdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.7/Vekrun_0.2.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHNLRXhDRTJ3YVkxV1ROMjFpbjNxK0ZMTUVCZHhpVEU5MERhYUE1WWdFaWpnRUlmSGRFakUrWFBlWmFZZGhIazcvZEpicTRINWo5eEhnWHpxMjUwcmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTYzMjYxCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuOApKRW05YzJvTDVJK1NISkZ6M0luRUlHTE1SNU1vTHlqV255TkdSelc1ZHZleng4ZVBTMTY3NVJvTjJqNTU1bFk3QndmdnRmdE9WVlJRcWM4dnFHTmdCdz09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.8/Vekrun_0.2.8_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFneUdSa3RCNkZPZ0FybHhQRlBnMStBYzVhazgrZTdFOGtLUEZDY2xCQlU0RXZrdEV2WjRURTEwaSs2VnFFNDFrL2YyZ2ZuRmhZUGk3VUNBSGl6ZUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTYxNDA4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuNwozSWJQZ0ovOG5kVlMycjhUSjVKMTFUUkRoT2lFZzluaGlWSGtZc1ROOTRqU1dSbGl5S1Z6RENPbVlzVndZcC94ckc5aTdwN1IrN1g5YjVrOFYvcGlEQT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.7/Vekrun_0.2.7_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHJ5MEh0OE1iVkpqL1BHY0xHcm9OclNUV0NQdmFxQ0liaVRUZkk4SUFhU2R1ODh5NTVpRlh0Kzl5UXJvU2dES3NZeXN0SzhWUW9sODRXUjUvOWdpYmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTYzMjU5CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuOApQU1B4anFuT2hBOUdZWFQ2aERJOHJoYWlSeGZDamt5OVBhMTcweHFNV0ZEdk5PdVA5TFdpd2xhcElsTDBMczljRjFHSUdhZFZqVXdMWEVOZlZIM2pBUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.2.8/Vekrun_0.2.8_x86_64.app.tar.gz"
     }
   }
 }
