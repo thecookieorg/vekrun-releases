@@ -1,15 +1,15 @@
 {
-  "version": "0.5.4",
-  "notes": "What's new in Vekrun 0.5.4 \u2014 The Board, straightened out\n\n\u2022 Tickets from Markdown: no more dead end. Your open project is offered right away (Vekrun adds it to the Board when you import), the import comes first and the how-to is tucked away, and importing files that are already on the Board says they're up to date instead of \"no tickets found\".\n\u2022 One clear button per tab: New work item on Overview, New ticket on Tickets.\n\u2022 The Overview queue shows your local and Markdown tickets too (they were hidden by the project filter), without Vekrun's internal ids.\n\u2022 Ticket cards no longer repeat their id in the title.",
-  "pub_date": "2026-11-18T21:43:18Z",
+  "version": "0.5.5",
+  "notes": "What's new in Vekrun 0.5.5 \u2014 Datadog, and one debug report\n\n\u2022 Datadog through the browser sign-in reads Error Tracking when its answer has a heading, a note or a code fence around the data, and an answer that says there are no issues is an empty list rather than an error. If an answer still can't be read, Vekrun keeps a redacted sample for the debug report, so the cause can be seen instead of guessed.\n\u2022 One debug report: \"Save diagnostic report\" (Settings \u2192 Environment diagnostics) and \"Export debug info\" (Settings \u2192 Updates) save the same zip \u2014 versions, this Mac, toolchains, agents, settings, recent Work Items and any unreadable answers, with secrets removed \u2014 with Show in Finder. The report says the app's real version, and the page no longer jumps while it saves.\n\u2022 Errors since: choosing a day only sets it; Sync now brings the errors in.",
+  "pub_date": "2026-11-18T21:54:19Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFNeUhsWklwV2RHUWpFa3VUSzlqRW5EcFpLUmJOVHp5cVcxSDc5ZFZISHZ4WEhhdktKSFhlWVZvVWxCZHNmakVEVWE1Vnk3clYyUkIrUnh3R2pqQ3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4MTk2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNApueXVEL1k2VWpLU0l1M212akpkdExNbmdXalJKeHBsa2RRejhGMXk1NngvZitzcGFTYXZTa0xPS0liNXF6WGZNVUlxaE40VWhPVTE5MExzSHUwTzVDUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.4/Vekrun_0.5.4_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1EdS9aVmdZb0ZCYzY4MitCQUpoMDNOMU11Y1JMZ1BFWDZZTEVQY2QzVVVXaDZUTHlGcFhPS2VDY0NJRHVQcE1uQTRxZ2Z1Y01IRTY0dkJhNkxjelFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4ODU3CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNQpxWnBTMHczSjUvdlJIblRuWno4ZXo5RHJrMTIySzdJR05YMU9wU0JyWlpsVW0zOGl4dVNuR3JrbGdRYWdxbGhVNStDc09UaCsxdm43eUZYNnoxRTFCQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.5/Vekrun_0.5.5_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHFjVUxRclZqV0ZSWElvbkFydzlWY0lESHJIS1VJbXAza1VZVTNIL0tKNi9VSzVHMWlpbVhkM05aSUdidko1c2JTY0YybjBadXp5ZGRWUWRPREJ2OEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4MTkzCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNAo5Y0I0WVJRN2xVdUNqMEdqcDhYeHZxbW5IbkxVdjltbUwrekxQRk1kT2hiMFdlcW40RDBCTTBrR3BFdmI5VmFSTFdwckdVMlRBUXdndEtFOG9ZVS9Edz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.4/Vekrun_0.5.4_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHVWeldPdWdKbFUxMFl3enpYbUpRVEp0eW5nNzZxck9zRW5DdGR6Vyt2WFpSdzBYc0lvUi83QUUyOHozUVhBd2lIWlVMNWhLcnZDMGJXcnZoeGlCSEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDM4ODU0CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjUuNQpRQ2ZjaytEQUM1N1FLN0N6TjZ0dlpQMFFNSEJIRXU5UnQyd3VabGRYRHQ2Y3J5bm91NW1vdGpxcW5EOEFyZUFob0xxczc5bVZWQzJVWEc3VzhjSUlCQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.5.5/Vekrun_0.5.5_x86_64.app.tar.gz"
     }
   }
 }
