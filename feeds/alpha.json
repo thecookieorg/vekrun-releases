@@ -1,15 +1,15 @@
 {
-  "version": "0.6.3",
-  "notes": "What's new in Vekrun 0.6.3 \u2014 The Host keeps running, and more gaps closed\n\n\u2022 Closing the window keeps Vekrun Host running: the Factory keeps working and the computer stays awake. Open Vekrun from the Dock to come back; quit with \u2318Q to stop it. Turn it off, or have the Host start when you log in, under Host & Mobile.\n\u2022 Fixed: turning \"Keep this computer awake\" off didn't save.\n\u2022 Engineering Memory: correct or withdraw anything Vekrun recorded that's wrong. Your correction is what the Coordinator, Council and agents get from then on; the old version stays in history.\n\u2022 Dev environment: start and stop the project's Docker Compose services (waiting until each is healthy), and run its own database preparation and seed commands, with live progress and the output.\n\u2022 Verify an evidence receipt someone sent you, offline (\u2318K \u2192 \"Verify an evidence receipt\"): who signed it, whether you trust that key, whether its commit is in your project, and what wasn't verified.\n\u2022 Live Share: on apps whose security policy blocks Review Mode, reviewers get a plain Feedback link and page instead of nothing.",
-  "pub_date": "2026-11-19T04:31:20Z",
+  "version": "0.6.4",
+  "notes": "What's new in Vekrun 0.6.4 \u2014 Vultr servers, a chosen mobile target, and Organizations (preview)\n\n\u2022 Work Anywhere: rent a Vultr server alongside Hetzner and DigitalOcean. Each plan shows how strongly it can isolate AI work (hardware, hardware if available, or sandboxed) and its price in the provider's own currency.\n\u2022 Mobile: pick which simulator or emulator the Factory builds and tests on, from Home.\n\u2022 Organizations (preview, Settings \u2192 Organizations): create an organization with a recovery code, join one with a join code and an invite, and manage members and admins. Evidence receipts signed by members are trusted automatically and show who signed them.\n\u2022 Fixed: Hetzner prices shown as USD instead of EUR.",
+  "pub_date": "2026-11-19T15:52:01Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG1OMG1FSzlFY04vV2NyakJtVkcyRUQrb0FoVjF1ZThkeGIxTEZyUEs0VnZBazJQN3p3dExWOWd6Q1JKN25IOUVvRmFQdVNIMXZmSVhqWTk5bTAzekFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDYyNjgwCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMwovVkhyZ09XbVVHdmZzMmR0NXNaOE80eDN2N1B3dVlodis2Skl0akhuYXZHRTRrSVRSMHVWcHgxbTFVYUNmQXVvWHdnYUNaS0VlMWMySnIzYUFHODlCdz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.3/Vekrun_0.6.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHB3OUVERlM5ZFp6SzJ6czN6NGtmeTBwVVJ4MXdFVE0zRXQ5VkxJYzFBemlsOGkrNW1CdmNzUm9OZ0NvRW9LUmJHWVU5ZlRRK0xBYit0c1JpV3N1cmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTAzNTIwCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuNAprN2h0R2ovQm5hYjc4WjRHRkt1Mk1JdUNzMGhLUllzSS9WRjcwc3BsSDZFQXg2NHFUMG9vMU5MeWhSZEJsdElSTW10WVRPbk9oVi80N2tqZlYwSEJEUT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.4/Vekrun_0.6.4_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGcrdkU4UUk4NHpjTDUzcHJaSE1kS3Q4VEZHZ3VxeXhYemNPbGFqREljQ1p1ajZLZ2NzY3BSRTBUam5rU2lwNFlMeDZIRDFxdkloN0NCTVBxRnhZMndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDYyNjcyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMwp5Z1A0NHdzOFEyK1R6SU94Mnc4K21sNjhkSkIxMXNHakc0NXdJcUhyMndQYmtpMGZuT0VCVU44cE56MHVUekRnU0ZDOXlvNTlPbzNYQkJobWZqMmZEZz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.3/Vekrun_0.6.3_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVHRianpRNUNiSCtoMXErbmJPdFFsNHlJb3U3U0wyWXNLNlpBT1BTSEowMnk3b2VjdndLaUQrOXY1OFd1NXdET0NxaVAvUThpYmU5SDdTUE5IR0lyb2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTAzNTE1CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuNApDUmZKeWtxdkF5bysxUnNlZUdaZTBlSCt3blREYTB2dG5XTGwzMGYycHdEUUxPdWRWUFpYQk5pSEpEUkpUenhzbGk1STlXR21wUkZoeUFaUmpKMmlDQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.4/Vekrun_0.6.4_x86_64.app.tar.gz"
     }
   }
 }
