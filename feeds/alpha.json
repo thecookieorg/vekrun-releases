@@ -1,15 +1,15 @@
 {
-  "version": "0.6.0",
-  "notes": "What's new in Vekrun 0.6.0 \u2014 No more Keychain prompts after updates\n\n\u2022 Updates stop asking for your Keychain password. Vekrun is now signed with one stable certificate, so macOS knows each update is the same app, and all of Vekrun's secrets live in a single Keychain item. This update asks one last time (once for each secret you've stored, as they move into that one item): choose \"Always Allow\". After that, updates don't ask.\n\u2022 The update pill in the header shows up by itself: Vekrun checks for a new version every 30 minutes, and when you come back to it after 10 minutes or more (it used to wait six hours).",
-  "pub_date": "2026-11-18T23:46:43Z",
+  "version": "0.6.1",
+  "notes": "What's new in Vekrun 0.6.1 \u2014 Bringing work in, and investigations that recover\n\n\u2022 Bring work in from Claude Code, Codex or Gemini CLI: untick any changed file to leave it out (it stays as your last commit has it in the Factory's copy), name Gemini CLI as the source, and optionally note the tool's session id (kept only as where the work came from). The way in is always there: a link on Home when there's no card, and \"Bring in unfinished work\" in Search anything (\u2318K).\n\u2022 Production monitoring says \"investigating\" only while work on an error is actually running, with one badge per row. Stopped or finished work no longer leaves the label behind.\n\u2022 When a local model crashes mid-investigation (Ollama's \"model runner has unexpectedly stopped\", usually out of memory), Vekrun starts it again on its own. If it crashes again, it says what happened and what helps, with Try again and Choose a model.\n\u2022 Investigate new errors no longer skips errors whose application isn't mapped to a repository: like Investigate on one error, it reads them against the open project and says so.",
+  "pub_date": "2026-11-19T00:24:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG5semZ0bmhNcVUxdDk5Z3BqcG05cFJQS0lQcGVVTnNYbFlkcjB5a0tRYVpDKzZFRnhqN0hjNFdaL1gvWDRNR3NzL3VRQklUaDdsYUZ1ZDE0V0JHWEFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ1NjAwCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApkRjFNRG51dEpxa3lzM1pucnpicUlLZ1haaWFyd0Vjd2pvME1XdmtKeGlObXFUeWVPT2szcy9HdDZLTjZsVG1uRENYbWVpZmFYUWhrdGgrMFZubUdEUT09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.0/Vekrun_0.6.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVG5uTXkySHJjazRaSmVkdnRVMHlEcDdpWFgrQWZBS0ZEZTNBMlJoUjhwUkorSUVka1YwbFNpVzQyM3NzRHViNWQxcXMrWUx0VDhRZXRra2JZWDBGWmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ3ODUyCWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMQpKTUN1NXR3UHJxZTdDeDN1Szh4TXBnYldyRHlTUWc2K015L2xMU1BuV01vbEE2WDYzZURKc0JyMFVuUUNHdnhuR0VZVEN3bU5KdEk0MTVyZzdzK21EQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.1/Vekrun_0.6.1_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGdHWE8yS3R5SStIRzJMbTU0eUN1MW1FbytLVmVXVGxjbnZtRnFBT05WTUxYMTEvM3NRVm9XbzhNUjRvNk1CWFJXckVYMnlsNDJCQVlxYU0zYWF2MndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ1NTk4CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMApFakJHSHU2QmJQT2VocDZZTXh1Rk9NdTFqOXB2KzU5NnhwWG9SaVpzNzZyK2ZxRUlyS3Z6K1ZORER6d3BSLytES3FIaEYwaTd5bnlPS3Vhamh1ckdDZz09Cg==",
-      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.0/Vekrun_0.6.0_x86_64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSeW1MZ21zek0wVGhKODlVcElIWnJPTnZmV21jaUY1ZVNvV3B5a3lMVmdRL3lUUTdtRzkrcUM3cE5wbUh1Z2drRXhEUFc0RXBUUC9XampRTExiNlpDZHhudldhWmIvRmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDQ3ODU2CWZpbGU6VmVrcnVuLmFwcC50YXIuZ3oJdmVyc2lvbjowLjYuMQpMSnhDNVdtNzNCdFpJSDByZnZGNTJPYzFVTjNrRkdhWXJGSDdoMXRobk83NFNBYTg4VjBRdHk5N1QvUlNkdysyQUtvaDZ2Y2YxK2h0cDNldkhxZCtEQT09Cg==",
+      "url": "https://github.com/thecookieorg/vekrun-releases/releases/download/v0.6.1/Vekrun_0.6.1_x86_64.app.tar.gz"
     }
   }
 }
